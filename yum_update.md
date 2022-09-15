@@ -10,7 +10,7 @@ e. escape
 f. wq and enter 
 
 
-Method 02:
+#Method 02:
 
 a. sudo mkdir -p /opt/scripts/yum/ && sudo vim /opt/scripts/yum/yum_update.sh
 b. paste below line and save with wq!
