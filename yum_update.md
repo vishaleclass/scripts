@@ -1,4 +1,4 @@
-Method 01:
+#Method 01:
 
 a. open ssh console 
 b. run crontab -l ( List the crontab)
