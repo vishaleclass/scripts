@@ -1,4 +1,7 @@
-#Method 01:
+## Problem Statement: 
+### Need to schedule yum update command to run weekly on linux 
+
+#### Method 01:
 
 a. open ssh console  
 b. run crontab -l ( List the crontab)  
@@ -10,7 +13,7 @@ e. escape
 f. wq and enter   
 
 
-#Method 02:  
+#### Method 02:  
 
 a. Create Directory and open file in editor  
 >sudo mkdir -p /opt/scripts/yum/ && sudo vim /opt/scripts/yum/yum_update.sh   
