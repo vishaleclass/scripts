@@ -4,7 +4,7 @@ a. open ssh console
 b. run crontab -l ( List the crontab)  
 c. run crontab -e (Edit the crontab)  
 d. add below line   
-1 0 * * */6 yum update   #This will run Weekly at 01 AM  
+>1 0 * * */6 yum update   #This will run Weekly at 01 AM  
 
 e. escape   
 f. wq and enter   
