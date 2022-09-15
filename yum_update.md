@@ -14,12 +14,12 @@ f. wq and enter
 
 a. sudo mkdir -p /opt/scripts/yum/ && sudo vim /opt/scripts/yum/yum_update.sh  
 b. paste below line and save with wq!  
-
+'''
 #!/bin/bash  
 echo "###### Starting Yum Update at `date` ######"  >> /var/log/yum_update_log.txt  
 yum update >> /var/log/yum_update_log.txt  
 echo "###### Ending Yum Update at `date` ######"  >> /var/log/yum_update_log.txt  
-  
+'''
 c. execute crontab -l ( List the crontab)  
 d. add cron using crontab -e   
 d. add below line   
