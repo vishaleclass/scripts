@@ -1,3 +1,6 @@
+# Make sure to enable Set-ExecutionPolicy
+#Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+
 #Checking the network connectivity with multiple servers using powershell script
 
 # List of IP addresses
